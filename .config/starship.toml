@@ -1,0 +1,65 @@
+
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+
+[aws]
+disabled = true
+symbol = "  "
+
+[docker_context]
+disabled = true
+symbol = " "
+
+[golang]
+disabled = true
+symbol = " "
+
+[java]
+disabled = true
+symbol = " "
+
+# [javascript]
+# disabled = true
+# symbol = " "
+
+[nodejs]
+disabled = true
+symbol = " "
+
+[python]
+disabled = true
+symbol = "󰌠 "
+
+[ruby]
+disabled = true
+symbol = " "
+
+[rust]
+disabled = true
+symbol = " "
+
+[terraform]
+disabled = true
+symbol = "󱁢 "
+
+[sudo]
+disabled = true
+symbol = "🧙 "
+
+[os.symbols]
+Alpine = " "
+Amazon = " "
+Android = " "
+Debian = " "
+Kali = " "
+Linux = " "
+Macos = " "
+OpenBSD = "󰈺 "
+Raspbian = " "
+Ubuntu = " "
+Unknown = " "
+Windows = "󰍲 "
