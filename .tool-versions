@@ -1,4 +1,6 @@
-nodejs 23.11.0
-opentofu 1.9.1
-python 3.13.3
+nodejs 24.14.1
+opentofu 1.11.6
+python 3.13.13
 terraform 1.9.8
+java openjdk-21
+kubectl 1.33.6
