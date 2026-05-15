@@ -1,0 +1,22 @@
+# Ghostty theme
+theme = Catppuccin Macchiato
+
+# Shell integrations
+shell-integration = zsh
+
+# Font family
+font-family = FiraCode Nerd Font
+font-style = Regular
+font-style-italic = Regular Italic
+font-style-bold = Bold
+font-style-bold-italic = Bold Italic
+
+# Opacity of split windows
+unfocused-split-opacity = 0.97
+
+# macos options
+macos-option-as-alt = true
+macos-titlebar-proxy-icon = hidden
+
+# Decrease scroll sensitivity
+mouse-scroll-multiplier = 0.8
