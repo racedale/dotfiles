@@ -1,30 +1,42 @@
 #!/bin/sh
 
+# brew tab
+brew tap manaflow-ai/cmux
+
 # install non-essential formulae tools
 brew install font-fira-code-nerd-font
+brew install font-symbols-only-nerd-font
 
 # install essential formulae tools
+brew install anomalyco/tap/opencode
 brew install ansible
 brew install ansible-lint
-brew install asdf
+brew install argocd
+brew install beads
 brew install bazelisk
 brew install cf-terraforming
 brew install direnv
+brew install dolt
 brew install gnupg
 brew install helm
+brew install k3sup
+brew install mise
 brew install mtr
 brew install nmap
+brew install sqlite
 brew isntall starship
 brew isntall stow
 brew install yadm
-# installed via `asdf``
+# installed via `mise``
 # brew install opentofu
 # brew install terraform
 
 # install essential cask tools
+brew install --cask ghostty
+brew install --cask cmux
+brew install --cask freelens
 brew install --cask 1password-cli
 brew install --cask orbstack
 brew install --cask raycast
 brew install --cask slack
-brew install --cask warp
 brew install --cask zed
