@@ -73,6 +73,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+unalias gc 2>/dev/null
 
 # User configuration
 
