@@ -3,4 +3,4 @@ opentofu 1.11.6
 python 3.13.13
 terraform 1.9.8
 java openjdk-21
-kubectl 1.33.6
+kubectl 1.34.6
